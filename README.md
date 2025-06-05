@@ -19,9 +19,10 @@
 
 ## 🖼 Capturas de Pantalla!
 
-![Pantalla principal](screenshots/pantalla_principal.PNG)
+<p align="center">
+  <img src="screenshots/pantalla_principal.PNG" alt="Pantalla principal" width="250"/>
+  <img src="screenshots/pantalla_coincidencia.PNG" alt="Pantalla coincidencia" width="250"/>
+  <img src="screenshots/pantalla_historial_coincidencia.PNG" alt="Pantalla historial" width="250"/>
+</p>
 
-![Pantalla coincidencia](screenshots/pantalla_coincidencia.PNG)
-
-![Pantalla historial_coincidencia](screenshots/pantalla_historial_coincidencia.PNG)
 
