@@ -22,7 +22,7 @@
 <p align="center">
   <img src="screenshots/pantalla_principal.PNG" alt="Pantalla principal" width="250"/>
   <img src="screenshots/pantalla_coincidencia.PNG" alt="Pantalla coincidencia" width="250"/>
-  <img src="screenshots/pantalla_historial_coincidencia.PNG" alt="Pantalla historial" width="245"/>
+  <img src="screenshots/pantalla_historial_coincidencia.PNG" alt="Pantalla historial" width="240"/>
 </p>
 
 
