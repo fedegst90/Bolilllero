@@ -19,9 +19,9 @@
 
 ## 🖼 Capturas de Pantalla!
 
-![Pantalla principal](screenshots/pantalla_principal.png)
+![Pantalla principal](screenshots/pantalla_principal.PNG)
 
-![Pantalla coincidencia](screenshots/pantalla_coincidencia.png)
+![Pantalla coincidencia](screenshots/pantalla_coincidencia.PNG)
 
-![Pantalla historial_coincidencia](screenshots/pantalla_historial_coincidencia.png)
+![Pantalla historial_coincidencia](screenshots/pantalla_historial_coincidencia.PNG)
 
