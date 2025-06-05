@@ -17,13 +17,11 @@
 
 ---
 
-## 🖼 Capturas de Pantalla
+## 🖼 Capturas de Pantalla!
 
-![Pantalla principal](BoliApp/app/src/main/res/screenshots/pantalla_principal.9.png)
+![Pantalla principal](screenshots/pantalla_principal.png)
 
-![Pantalla coincidencia](BoliApp/app/src/main/res/screenshots/pantalla_coincidencia.9.png)
+![Pantalla coincidencia](screenshots/pantalla_coincidencia.png)
 
-![Pantalla historial_coincidencia](BoliApp/app/src/main/res/screenshots/pantalla_historial_coincidencia.9.png.9.png)
-
-
+![Pantalla historial_coincidencia](screenshots/pantalla_historial_coincidencia.png)
 
