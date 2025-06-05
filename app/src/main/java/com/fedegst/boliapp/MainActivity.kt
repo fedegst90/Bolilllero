@@ -37,7 +37,6 @@ class MainActivity : AppCompatActivity() {
     private var estadoFinal = false
 
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -59,7 +58,6 @@ class MainActivity : AppCompatActivity() {
         btnHistorial = findViewById(R.id.btnHistorial)
         animacion = findViewById(R.id.animation)
         overlayView = findViewById(R.id.overlay)
-
 
         btnHistorial.setOnClickListener {
             mostrarHistorial()
@@ -124,7 +122,7 @@ class MainActivity : AppCompatActivity() {
                                     override fun onAnimationStart(animation: Animator) {}
 
                                     override fun onAnimationEnd(animation: Animator) {
-                                            mostrarHistorial()
+                                        mostrarHistorial()
                                     }
 
                                     override fun onAnimationCancel(animation: Animator) {}
@@ -163,7 +161,7 @@ class MainActivity : AppCompatActivity() {
         btnReset.setOnClickListener {
 
             if (estadoGenerado) {
-               initUI()
+                initUI()
             }
 
         }
@@ -196,6 +194,7 @@ class MainActivity : AppCompatActivity() {
     private fun numerosExcluidos(coincidencia: Int): Set<Int> {
         return contadorNumeros.filterValues { it >= coincidencia }.keys
     }
+
     private fun mostrarHistorial() {
         val mensaje = if (historial.isEmpty()) {
             "No hay historial aún."
@@ -211,9 +210,7 @@ class MainActivity : AppCompatActivity() {
             .setMessage(mensaje)
             .setPositiveButton("Cerrar") { dialogInterface, _ ->
                 if (estadoFinal) {
-                    val intent = intent
-                    finish()
-                    startActivity(intent)
+                    initUI()
                 }
                 dialogInterface.dismiss() // Cierra el diálogo
             }
